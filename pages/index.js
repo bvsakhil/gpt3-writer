@@ -37,7 +37,7 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>Get Reading Inspiration From Your Fave Films & Series!</title>
       </Head>
       <div className="container">
         <div className="header">
@@ -50,7 +50,7 @@ const callGenerateEndpoint = async () => {
           <div className="prompt-container">
           <textarea 
 className="prompt-box"
-placeholder="start typing here"
+placeholder="Enter Movie or Series Name"
 value={userInput}
 onChange={onUserChangedText}
          />
